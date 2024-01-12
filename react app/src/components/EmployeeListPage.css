@@ -1,0 +1,27 @@
+
+.employee-list-container {
+  margin-top: 20px;
+  margin-left: -270px;
+
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.employee-table th, .employee-table td {
+  border: 2px solid #cccccc;
+  padding: 8px;
+  text-align: center;
+  
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+}
+
+.employee-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
